@@ -28,6 +28,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/dealetakispv/Kuurax-H
 
 | Game | Features Included | Status |
 |:---|:---|:---:|
+| **Loot To Forge** | Auto Stage & Monster Farm, World Boss Server Hop, Auto Forge/Enchant, Enhance +20, Tower, Spawn & Dupe (OP) | 🟢 Online |
 | **Blox Strike** | Silent Aim, Tactical Aimbot, Recoil Control, Skeleton/Box ESP, Bunny Hop | 🟢 Online |
 | **RIVALS** | Combat Assist, Silent Aim, TriggerBot, Custom FOV Circle, Player ESP | 🟢 Online |
 | **Sniper Arena** | Bullet Prediction, Silent Aim, Fullbright, Fly / Noclip, Advanced ESP | 🟢 Online |
