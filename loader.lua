@@ -21,7 +21,11 @@ local games = {
     [9294074907]  = "one_tap",
     [10526853622] = "deep_fishing",
     [6331902150]  = "forsaken",
-    [10629695169] = "tap_simulator_reborn"
+    [10629695169] = "tap_simulator_reborn",
+    [2619619496]  = "bedwars",
+    [3808081382]  = "the_strongest_battlegrounds",
+    [10765618402] = "steel_fighters",
+    [10768498581] = "tribes_3v3"
 }
 
 local current = games[game.GameId]
