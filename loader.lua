@@ -7,7 +7,9 @@ getgenv().__KuuraxLoading = true
 getgenv().__KuuraxLoadingTime = os.clock()
 
 local games = {
+    [10766212164] = "+1 Money Per Click",
     [10768372920] = "+1 Upgrade Per Kill",
+    [10769464063] = "+1 Venom Evolution",
     [10526463655] = "8 Ball Duels",
     [7326934954]  = "99 Nights in the Forest",
     [10708913337] = "Anime Dice",
@@ -18,13 +20,16 @@ local games = {
     [10771421858] = "Don't Splash, It Knows",
     [9051406594]  = "Dueling Grounds",
     [10769384180] = "Fake An Egg",
+    [5750914919]  = "Fisch",
     [6701277882]  = "Fish It!",
     [6331902150]  = "Forsaken",
     [2668101271]  = "FTAP Hub",
+    [2404080894]  = "Funky Friday",
     [10648640958] = "Hood Rivals",
     [10764627709] = "Huss Valley",
     [5995470825]  = "Hypershot",
     [10684750879] = "Loot To Forge",
+    [7219654364]  = "Murderers VS Sheriffs",
     [9294074907]  = "One Tap",
     [5595353122]  = "Ouwland",
     [6035872082]  = "RIVALS",
@@ -42,7 +47,7 @@ local games = {
     [6739698191]  = "Violence District"
 }
 
-local current = games[game.GameId]
+local current = games[game.GameId] or games[game.PlaceId]
 if not current then
     getgenv().__KuuraxLoading = nil
     pcall(function()
